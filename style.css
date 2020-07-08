@@ -1,0 +1,184 @@
+/* Main CSS */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #413960;
+   }
+   
+h1{
+    font-weight: 900;
+    line-height: 2rem;
+    margin: 30px 0px;
+   }
+h2{
+    margin: 50px 0px;
+}
+ p{
+       font-size: small;
+       color: #585859;
+   }
+
+.container{
+    margin-bottom: 100px;
+}
+
+   /* Header top CSS */
+
+.ready-to-learn{
+    color: orangered;
+}
+.hightlight-color{
+    color: #21B573;
+}
+
+
+.header-top{
+    background-color: #F0FFF0;
+    height: 576px;
+    margin-bottom: 100px;
+}
+/* Button & Button Hover CSS */
+.button, #active{
+    background-color: #21B573;
+    border: none;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 33px;
+}
+.button:hover{
+    background-color: orangered;
+    font-size: 20px;
+    cursor: pointer;
+}
+#active:hover{
+    background-color: orangered;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    cursor: pointer;
+}
+
+/* Achievement CSS */
+
+.achievement img{
+    width: 30%;
+    
+}
+.achievement .card-body{
+    padding: 20px 0 0 0;
+    margin-top: 10px;
+}
+.achievement .card-body h5, .achievement .card-body p{
+    margin: 0;
+    padding: 0;
+}
+.achievement .card{
+    padding: 40px 20px;
+    background-color: #F0FFF0;
+}
+
+/* Online Courses CSS */
+
+.Online-Courses .button{
+    margin-top: 40px;
+}
+.Online-Courses .card img{
+    padding: 20px;
+}
+.Online-Courses .card-footer{
+    background-color: white;
+    border: none;
+}
+.people-icon{
+    width: 69px;
+    height: 60px;
+    margin-top: -21px;
+    margin-left: 25px;
+}
+
+/* Testimonial CSS */
+
+.testimonial-box img {
+    width: 157px;
+    height: 131px;
+    margin-right: 30px;
+  }
+  
+  .testimonial-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Fotter CSS */
+
+footer li{
+    list-style: none;
+    line-height: 1.8rem;
+}
+footer a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 400;
+}
+footer a:hover{
+    color: white;
+    text-decoration: none;
+}
+footer ul li:first-child{
+    font-size: medium;
+    color: white;
+    font-weight: 500;
+}
+footer{
+    background-color: #282531;
+    font-size: small;
+    color: gray;
+    padding: 50px;
+    font-weight: 400;
+}
+footer p{
+    margin-bottom: 1rem;
+    margin: 50px;
+    text-align: justify;
+}
+footer .copyright{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav li{
+    padding: 8px 0px 8px 14px;
+    margin: 0px;
+}
+
+/* Responcive CSS */
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
